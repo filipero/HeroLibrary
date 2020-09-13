@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HeroListViewController.swift
 //  HeroLibrary
 //
 //  Created by Foliveira on 12/09/20.
@@ -8,13 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HeroListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
-
