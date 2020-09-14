@@ -13,9 +13,5 @@ class HeroListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        MarvelAPI().getCharacters(offset: 1, limit: 5) { characters in
-            print(characters.data.results.count)
-        }
     }
 }
