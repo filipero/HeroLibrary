@@ -57,4 +57,10 @@ extension HeroListViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let list = heroList else {return}
+        let vc = HeroDetailViewController(hero: list[indexPath.row])
+        present(vc, animated: true, completion: nil)
+    }
 }
