@@ -21,7 +21,6 @@ class MarvelAPI {
                 } catch {
                     print(error)
                 }
-                print("Finished")
             }.resume()
         }
     }
